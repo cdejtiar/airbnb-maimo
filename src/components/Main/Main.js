@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../Card/Card";
-import { ReactComponent as Loader } from '../../assets/images/loader.svg';
+import { ReactComponent as Loader } from '../../assets/images/Spinner.svg';
 import styles from './Main.module.css';
 
 const Main = (props) => {
@@ -18,7 +18,7 @@ const Main = (props) => {
                     </div>
                 )
                     :
-                    (<p> NO HAY RESULTADOS </p>)
+                    (<p className={styles["noresults"]}> NO HAY RESULTADOS </p>)
             ) : (
                 <Loader />
             )}

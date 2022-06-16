@@ -4,3 +4,11 @@
     margin:1em 0em;
     text-align: center;
 }
+
+.noresults{
+    color: #f7fbff;
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 2em;
+    font-family: 'Roboto', sans-serif;
+}
