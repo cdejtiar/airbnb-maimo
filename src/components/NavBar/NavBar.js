@@ -9,7 +9,7 @@ const NavBar = () => {
       role="navigation"
       aria-label="main navigation"
     >
-      <div className="navbar-brand">
+      <div className="navbar-brand container">
         <a className="navbar-item" href="https://bulma.io">
           <img
             alt="logo"

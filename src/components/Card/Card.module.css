@@ -1,0 +1,28 @@
+.card, .image{
+    border: 3px solid #fb8574;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content{
+    background-color: #171e2b;
+    color: #f7fbff;
+    border: 1px solid #fb8574;
+}
+
+.title{
+    color:#fb8574;
+}
+
+.media{
+    color: #e2f0ff;
+}
+
+i, .price{
+    margin-right: .5em;
+    color: #fb8574;
+}
+
+.price{
+    text-align: center;
+    font-size: 1.3em;
+}
